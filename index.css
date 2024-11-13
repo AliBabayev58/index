@@ -1,0 +1,210 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+
+.wrappers {
+    display: flex;
+    align-items: center;
+    background-color: rgb(35, 35, 35);
+    color: white;
+    font-family: sans-serif;
+    padding: 25px 5px;
+}
+
+header>.wrappers>.container>li>a {
+    color: white;
+}
+
+.wrappers>img {
+    width: 5%;
+    margin-right: auto;
+    margin-left: 35px;
+    border-radius: 30px;
+}
+
+header>.wrappers>.container>li>a:hover {
+    color: rgb(0, 191, 255);
+    opacity: 0.7;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    gap: 15px;
+}
+
+.container2 {
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+    gap: 25px;
+    margin-right: 30px;
+}
+
+.container2>i {
+    font-size: 27px;
+}
+
+.container-1 {
+    display: flex;
+    justify-content: center;
+    background-color: #EEEEEE;
+    margin-top: 100px;
+    padding: 75px 120px;
+    gap: 22px;
+}
+
+.container-1>div {
+    display: flex;
+    align-items: center;
+    width: 340px;
+    height: 100px;
+    background-color: white;
+    box-shadow: 0 2px 2px 4px darkgray;
+}
+
+.container-1>div>a {
+    display: flex;
+    padding: 0 0 55px 15px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #4b4545;
+    font-size: 14px;
+}
+.container-table{
+    text-align: center;
+    border-collapse: collapse;
+    margin-top: 50px;
+}
+th,td{
+    border: 3px solid green;
+    padding: 5px;
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.container-table>tbody>.container-tr>td>img{
+    width: 58%;
+    filter: drop-shadow(4px 2px black);
+}
+.container-mektub{
+    display: flex;
+    flex-direction: column;
+   margin: 45px 0 0 125px;
+    gap: 25px;
+}
+.container-mektub>.wrappers-1{
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+}
+.container-mektub>.wrappers-1>h2{
+    color: #8b7736;
+    font-size: 30px;
+    font-weight: 800;
+}
+.container-mektub>.wrappers-1>span{
+    color: #4b4545;
+    font-size: 22px;
+    font-weight: 400;
+}
+.container-mektub>.wrappers-2>span{
+    color: #4b4545;
+    font-size: 23px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.container-mektub>.wrappers-2>ul{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+.container-mektub>.wrappers-2>ul>li{
+    list-style-type:disc;
+}
+.container-mektub>.wrappers-2>ul>#one{
+   font-size: 20px;
+   width: 60%;
+   color: #4B4545;
+}
+.container-mektub>.wrappers-2>ul>#two{
+    font-size: 20px;
+    width: 60%;
+    color: #4B4545;
+ }
+ .container-mektub>#mektub{
+    background-color: #4b4545;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 15px 16px;
+    width: 150px;
+    text-align: center;
+    box-shadow: 0 0 5px 4px darkgray;
+ }
+ .container-imtahan{
+    display: flex;
+    margin-top: 20px;
+ }
+ .container-imtahan>#container-imtahan-2>img{
+        width: 100%;
+ }
+ .container-imtahan>#container-imtahan-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    gap: 20px;
+    background-color: rgb(253, 253, 218);
+    padding: 50px 10px;
+ }
+ .container-imtahan>#container-imtahan-1>span{
+    color: rgb(189, 131, 81);
+    font-weight: 900;
+    font-size: 33px;
+    width: 90%;
+ }
+ .container-imtahan>#container-imtahan-1>button{
+    padding: 10px 15px;
+    font-weight: 800;
+    background-color: rgb(0, 184, 181);
+    color: white;
+    border-radius: 10px;
+ }
+ footer{
+    display: flex;
+    background-color: #151547;
+    padding: 65px;
+    margin-top: 50px;
+ }
+ footer div{
+    margin-left: 280px;
+ }
+footer div ul li{
+    list-style-type:disc;
+}
+footer div ul{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-size: 19px;
+    color: white;
+    font-weight: 900;
+}
+ footer>.wrappers-s1>ul>li{
+    width: 80%;
+ }
+ footer>.wrappers-s1>ul{
+    display: flex;
+    flex-direction: column;
+ }
+ 
